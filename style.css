@@ -55,9 +55,14 @@ li {
     border-right: 2px solid #676767;
     cursor: pointer;
 }
-ul li:hover{
+ul li a:hover{
     color: grey;
     transition: .5s linear;
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 
@@ -68,6 +73,7 @@ ul li:hover{
 .next-width{
     width: 65%;
     padding-top: 39px;
+    margin-bottom: 150px;
 }
 
 .hight-check {
@@ -84,7 +90,7 @@ ul li:hover{
     font-size: 48px;
 }
 span.js-color {
-    color: #019191;
+    color: #144168;
 }
 input.email {
     border: none;
@@ -117,4 +123,53 @@ small {
     background-image: url(images/latest-bg.png);
     background-position: left bottom;
     background-repeat: no-repeat;
+}
+
+.plus-content h1 {
+    display: inline;
+    font-size: 110px;
+    color: #144168;
+    font-weight: 900;
+}
+
+.rihgt-box {
+    width: 30%;
+}
+
+span.sm-class {
+    margin-left: -41px;
+    font-size: 43px;
+    font-weight: 700;
+    color: #144168;
+}
+
+.para-contant {
+    font-weight: bolder;
+    padding-top: 29px;
+    line-height: 22px;
+}
+.left-box {
+    width: 80%;
+}
+
+.left-box h2 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #144168;
+    padding-top: 43px;
+}
+
+.flex-box {
+    display: flex;
+    margin-top: 30px;
+}
+
+.one-box {
+    background: #144168;
+    width: 211px;
+    padding: 103px 10px 10px 10px;
+    margin-right: 21px;
+}
+.one-box h3 {
+    color: white;
 }

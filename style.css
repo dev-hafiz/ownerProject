@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+.loho-text{
+    font-family: 'Festive', cursive;
+    cursor: pointer;
+}
+
+
+.container {
+    background: #f5f5f5;
+    
+    width: 1140px;
+    height: 35px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.next-container{
+    width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.top-bar-wrapper {
+    display: flex;
+}
+.logo-div {
+    width: 835px;
+}
+
+.first-body-wrapper{
+    display: flex;
+}
+
+
+
+ul {
+    display: flex;
+    padding-top: 9px;
+}
+
+li {
+    list-style: none;
+    padding-right: 26px;
+    padding-left: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    border-right: 2px solid #676767;
+    cursor: pointer;
+}
+ul li:hover{
+    color: grey;
+    transition: .5s linear;
+}
+
+
+.half-width{
+    width: 35%;
+}
+
+.next-width{
+    width: 65%;
+    padding-top: 39px;
+}
+
+.hight-check {
+    width: 550px;
+}
+
+.hight-check p {
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    font-weight: 600;
+}
+.hight-check h1 {
+    font-size: 48px;
+}
+span.js-color {
+    color: #019191;
+}
+input.email {
+    border: none;
+    background: #ecebeb;
+    padding: 4px 6px;
+    border-radius: 16px;
+    outline: none;
+    position: relative;
+}
+input.submit {
+    border: none;
+    outline: none;
+    background: black;
+    color: white;
+    padding: 4px 10px;
+    font-weight: 700;
+    position: absolute;
+    margin-left: -14px;
+}
+.check-bok {
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+small {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.next-bar-bg-banner{
+    background-image: url(images/latest-bg.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
